@@ -157,9 +157,10 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(keyCode === 32){
-      slingShot.attach(this.polygon);
+    slingShot.attach(this.polygon);
   }
-}
+  }
+
 async function getBackgroundImage(){
    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
    var responseJSON = await response.json();

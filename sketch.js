@@ -174,6 +174,7 @@ async function getBackgroundImage(){
      bg = "images/dark.jpg";
    }
 
+
    backgroundImg = loadImage(bg);
    console.log(backgroundImg);
 }
